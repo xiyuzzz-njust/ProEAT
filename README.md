@@ -9,11 +9,7 @@ git clone https://github.com/xiyuzzz-njust/ProEAT/
 cd ProEAT
 conda create -n ProEAT python=3.10 -y
 conda activate ProEAT
-pip install --upgrade pip  # Enable PEP 660 support
-pip install -e .
-
-pip install -e ".[train]"
-pip install flash-attn --no-build-isolation
+pip install -r requirements.txt
 ```
 
 
