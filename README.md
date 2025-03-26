@@ -7,8 +7,8 @@ Code for Adversarial Training for Multimodal Large Language Models against Jailb
 ```
 git clone https://github.com/xiyuzzz-njust/ProEAT/
 cd ProEAT
-conda create -n llava python=3.10 -y
-conda activate llava
+conda create -n ProEAT python=3.10 -y
+conda activate ProEAT
 pip install --upgrade pip  # Enable PEP 660 support
 pip install -e .
 ```
