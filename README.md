@@ -19,5 +19,5 @@ pip install -e .
 run **ProEAT**：
 
 ```
-bash scripts/v1-5/at_gcg.sh
+bash scripts/v1_5/at_gcg.sh
 ```
